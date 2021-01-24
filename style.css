@@ -1,10 +1,3 @@
-landing-2019.css
-Hier
-ven. 21:24
-M
-Vous avez importé un élément
-Feuille de style
-landing-2019.css
 /*
 - ICOMOON
 - GENERAL
@@ -32,12 +25,12 @@ landing-2019.css
 
 @font-face {
   font-family: "minervelp";
-  src: url("../fonts/minervelp.eot?y5842b");
-  src: url("../fonts/minervelp.eot?y5842b#iefix") format("embedded-opentype"),
-  url("../fonts/minervelp.woff2?y5842b") format("woff2"),
-  url("../fonts/minervelp.ttf?y5842b") format("truetype"),
-  url("../fonts/minervelp.woff?y5842b") format("woff"),
-  url("../fonts/minervelp.svg?y5842b#minervelp") format("svg");
+  src: url("fonts/minervelp.eot?y5842b");
+  src: url("fonts/minervelp.eot?y5842b#iefix") format("embedded-opentype"),
+  url("fonts/minervelp.woff2?y5842b") format("woff2"),
+  url("fonts/minervelp.ttf?y5842b") format("truetype"),
+  url("fonts/minervelp.woff?y5842b") format("woff"),
+  url("fonts/minervelp.svg?y5842b#minervelp") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -45,6 +38,28 @@ landing-2019.css
 
 hmtl {
   min-width: auto;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
 
 [class^="icon-"],
@@ -171,6 +186,10 @@ h3 {
   color: #181717;
 }
 
+ul, ol {
+  list-style-type: none;
+}
+
 h2.blue {
   color: var(--color-second);
 }
@@ -265,7 +284,7 @@ a.btn.mobile-show {
 div.bulle {
   position: absolute;
   z-index: 0;
-  background-image: url(../svg/lp_bulle.svg);
+  background-image: url(assets/lp_bulle.svg);
   background-size: 100%;
 }
 
@@ -523,7 +542,7 @@ section#brochure div.anim-svg.councelor {
   bottom: 0;
   width: 454px;
   height: 462px;
-  background-image: url(../svg/lp_councelor.svg);
+  background-image: url(assets/lp_councelor.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -858,7 +877,7 @@ section#callback div.anim-svg.telephone {
   width: 300px;
   height: 400px;
   animation: journuit 2s steps(2, jump-none) 0s infinite;
-  background-image: url(../svg/lp_telephone_anim.svg);
+  background-image: url(assets/lp_telephone_anim.svg);
   background-position: left;
 }
 
@@ -962,7 +981,7 @@ section#promo div.anim-svg.megaphone {
   width: 500px;
   height: 500px;
   animation: onOff 2s steps(2, jump-none) 2s infinite;
-  background-image: url(../svg/lp_megaphone_anim.svg);
+  background-image: url(assets/lp_megaphone_anim.svg);
   background-size: cover;
 }
 
