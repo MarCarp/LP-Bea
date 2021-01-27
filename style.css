@@ -1688,6 +1688,9 @@ form .fieldset-civility {
   font-style: normal;
   font-display: block;
 }
+#callback-popup {
+  display: none;
+}
 #wcbXivoPopin {
   /* == LOCAL VARIABLES == */
   /* === Colors === */
@@ -1695,7 +1698,6 @@ form .fieldset-civility {
   /* == END OF LOCAL VARIABLES ==*/
   /* == WCB ICONS == */
   /* == END OF WCB ICONS == */
-  /*display: none;*/
   background: rgba(32, 32, 32, 0.4);
   width: 100%;
   height: 100%;

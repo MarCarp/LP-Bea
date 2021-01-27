@@ -97,3 +97,11 @@ jQuery(function ($) {
     $('html, body').animate({scrollTop: scrollto}, 400);
   })
 });
+
+$('.callback-action').on('click', function(e) {
+  $('#callback-popup').show();
+})
+
+$(".wcb-popin-close").on('click', function (e) {
+  $('#callback-popup').hide();
+})
